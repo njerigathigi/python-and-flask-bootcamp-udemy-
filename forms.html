@@ -16,10 +16,19 @@
 
         <form method="get">  
             <h3>Are you employed?</h4>          
-            <label for="Yes">Yes</label>
-            <input id="Yes" type="radio" name="employed" value="Yes">
-            <label for="No">No</label>
-            <input id="No" type="radio" name="employed" value="No">
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="employed" value="Yes">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="employed" value="No">
+            <p>which programming language are you most familiar with?(Python, Javascript, Ruby)</p>
+            <select name="language_choice">
+                <option value="best">Python</option>
+                <option value="better">Javascript</option>
+                <option value="good">Ruby</option>
+            </select>
+            <p>Why do you prefer your chosen language?</p>
+            <textarea name="language_explanation" rows="5" cols="35"></textarea>
+            <input type="submit" name="submit" value="Submit Feedback">
 
         </form>
     </body>
