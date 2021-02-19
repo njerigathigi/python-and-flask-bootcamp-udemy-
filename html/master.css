@@ -1,0 +1,52 @@
+body{
+    background:whitesmoke;
+}
+h1{
+    color:rgb(35, 3, 22);
+}
+div{
+    background-color: rgba(101, 139, 228, 0.5);
+    border:brown;
+    border-width:thick;
+    border-style:dotted;
+}
+
+span{
+    background:pink;
+    color:black;
+    
+
+}
+
+
+/* 
+body{
+    background:url(enter url here);
+    background-repeat: no-repeat; #has more options
+}
+
+div{
+    border:blue 10px solid;
+    or even
+    border-color:brown (in full instead of border)
+}
+
+h1{
+    color:plum;
+}
+
+h1{
+    color:rgb(10,20,3000);    #red,green,blue
+}
+
+h1{
+    color:#9e32a8;             stands for hex value.google hex color to get codes.
+}
+
+h1{
+    color:rgba(10,200,1000,0.5)                #red,green,blue, alpha.Allows you to add a fourth value of transparency.
+                              0-fully transparent
+                              0.5-translucent
+                              1-fully opaque
+}
+*/
