@@ -2,22 +2,68 @@ body{
     background:whitesmoke;
 }
 h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:100px;
     color:rgb(35, 3, 22);
+    text-align:center;
 }
-div{
+
+#cutey{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size:100px;
+    text-align:center;
+
+}
+
+#image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.did_you_know{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size:40px;
+    background-color:rgba(67, 142, 200, 0.5);
+    border:black;
+    border-width:thin;
+    border-style:inherit;
+}
+
+.cat_types{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size:40px;
+    background-color:#6ea3cb ;
+    border:thin;
+    border-color:rgb(15, 13, 10);
+    border-style:groove;
+}
+/*div{
     background-color: rgba(101, 139, 228, 0.5);
-    border:brown;
-    border-width:thick;
-    border-style:dotted;
-}
+    border:black;
+    border-width:thin;
+    border-style:inherit;
+} */
 
 span{
-    background:pink;
+    background-color:pink;
     color:black;
-    
+
 
 }
 
+#love_cats{
+    font-size:20px;
+    font-style:italic;
+    font-family:cursive;
+    text-align:center;
+}
 
 /* 
 body{
@@ -49,4 +95,11 @@ h1{
                               0.5-translucent
                               1-fully opaque
 }
-*/
+
+-every html element can accept a class or id attribute.
+syntax
+.(period) for a class call
+# for an id call
+-classes are used to assign a css style to multiple different elements throughout the HTML
+-ids are used to apply a style to a single element.
+-ids should be used for unique elements.
