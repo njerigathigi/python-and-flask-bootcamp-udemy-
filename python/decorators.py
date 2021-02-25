@@ -8,8 +8,9 @@ def cat(name = "Nala"):
         return "mufasa"
 
     if name == "Nala":
-        return new_cat()
+        return new_cat
     else:
-        return newer_cat()
+        return newer_cat
 
-print(cat("Nala"))
+returned_function = cat(name = "Nala")
+print(returned_function())
