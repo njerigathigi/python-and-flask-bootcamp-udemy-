@@ -7,7 +7,9 @@ def cat(name = "Nala"):
     def newer_cat():
         return "mufasa"
 
-    new_cat()
-    newer_cat()
+    if name == "Nala":
+        return new_cat()
+    else:
+        return newer_cat()
 
-cat()
+print(cat("Nala"))
