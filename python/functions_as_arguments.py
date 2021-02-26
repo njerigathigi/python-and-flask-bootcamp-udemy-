@@ -8,3 +8,4 @@ def name(func):
     print(func())
 
 name(food_ready)
+         
