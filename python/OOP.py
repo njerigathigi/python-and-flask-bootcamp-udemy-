@@ -16,7 +16,7 @@ class Cat():
     temperament = "wants to kill you but is cute."
     
     def __init__(self, name, age):
-        self.jina = name
+        self.name = name
         self.age = age
 
 print(Cat.temperament)
@@ -25,14 +25,14 @@ print()
 
 cat1 = Cat("Nala", 1)
 
-print(cat1.jina)
+print(cat1.name)
 print(cat1.age)
 print(cat1.temperament)
 print(cat1)
 print()
 
 cat2 = Cat("Sarabi", 1)
-print(cat2.jina)
+print(cat2.name)
 print(cat2.age)
 print(cat2.temperament)
 print(cat2)
