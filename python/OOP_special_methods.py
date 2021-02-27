@@ -13,7 +13,7 @@ class Book():
 
 feb_book = Book("why didn't they teach me this in school", "carl siegel", 174) 
 print(feb_book)
-print(len(feb_book))
+print(len(feb_book)) #len works by calling an object's __len__ method. 
 
 # Special methods are a set of predefined methods used to enrich your classes. Also called Dunder methods.
 # Dunder or magic methods in Python are the methods having two prefix and suffix underscores 
