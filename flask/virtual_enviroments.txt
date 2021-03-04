@@ -1,0 +1,14 @@
+-A virtual environment is a Python environment such that the Python interpreter, libraries and scripts installed 
+into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in 
+a “system” Python, i.e., one which is installed as part of your operating system.
+-virtual enviroments are used to manage dependencies.
+-Each project can have its own enviroment.
+-To create a virtual enviroment
+pip3 install virtualenv
+virtualenv venv(name of enviroment)
+-will create a folder/directory called venv
+-activating the enviroment
+source venv/bin/activate(path to the activate file)
+. venv/bin/activate
+-To deactivate the enviroment
+deactivate
