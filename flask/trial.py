@@ -12,7 +12,7 @@ def whoarewe(): #127.0.0.1:5000/whoarewe
 
 @app.route("/cuteyprofile/<name>") #variable name passed into the route decorator will be synced to the one 
 def cutey(name):                   #passed into the function ie they are the same.
-    return "<p>my name is {0}</p>".format(name.upper())
+    return "<h3>my name is {0} and i am cute.</h3>".format(name.upper())
 
 
 if __name__ == "__main__":
