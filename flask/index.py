@@ -8,7 +8,7 @@ def karibu():
 
 @app.route("/meow")
 def about():
-    return render_template("index.html")
+    return render_template("index.html") #html file has to be in a templates folder at the same level as your .py file.
 
 if __name__ == "__main__":
     app.run(debug=True)
