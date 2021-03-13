@@ -1,10 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app  = Flask(__name__)
 
 @app.route("/")
 def karibu():
-    return "welcome! Meow!"
+    return '<h1 style="font-family:cursive;font-style:italic;">welcome! Meow!</h1>'
 
 @app.route("/meow")
 def about():
